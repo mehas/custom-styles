@@ -1,0 +1,222 @@
+.new-footer, #project-details-header-stats-percent-complete, .navbar-logo-container, .details-workitem-icon, .log-time-ico, .log-time, .decoration {
+	display: none;
+}
+.navbar {
+	border-bottom-width: 0 !important;
+	margin-bottom: 0;
+	min-height: none;
+	padding-bottom: 1px;
+}
+.detail-object-name {
+	padding-left: 0;
+}
+.rnd-lg-top {
+	border-radius: 0;
+}
+.bdr-thin {
+	border: none;
+}
+.details-header {
+	padding-left: 0;
+}
+.bg-light-blue-gradient {
+	background: none;
+}
+/* remove dumb bg gradients */
+ .listToolbar, .TabPanel li {
+	background-image: none !important;
+	border-radius: 0 !important;
+}
+td[valueformat="asPercent"] {
+	/*display: none;*/
+}
+.FloatingPanel--grey {
+	background: #fff;
+	border-width: 0;
+}
+.FloatingPanel {
+	box-shadow: none;
+}
+/* Hide meaningless icon next to project title*/
+ .project__icon {
+	display: none;
+}
+.project__header__left {
+	padding-left: 0;
+}
+.page-content-width {
+	padding-left: 10px;
+}
+.request-more-access {
+	display: none;
+}
+#helpLinkTrigger {
+	display: none;
+}
+.NavSearch .nav-search-dropdown:before, .NavSearch li:before, .nav-search-picklist .nav-search-dropdown:before, .nav-search-picklist li:before {
+	display: none;
+}
+.navbar-primary-link:first-child {
+	margin-left: 0;
+}
+.navbar {
+	padding-left: 10px;
+	background: none;
+}
+.job-role {
+	display: none;
+}
+.caret {
+	display: none;
+}
+.user-actions img.edit-custom-data-ico, .user-actions img.word-bubble-ico {
+	display: none;
+}
+.likeLink {
+	display: none;
+}
+.project__header {
+	padding-top: 0;
+}
+.detail-separator {
+	display: none;
+}
+[titan-notification-jewel] .notification-count.unacknowledged {
+	background-color: #999;
+}
+.project__details__info .flex-status svg {
+	display: none;
+}
+.condition.ar, .condition.it, .condition.on {
+	background: none;
+	padding-left: 0;
+}
+.project__details__info .flex-status dt {
+	margin-bottom: 4px;
+}
+.project__details__info {
+	margin-top:0;
+	padding-top: 0;
+}
+.updates-list ul.updates>li {
+	border: 0;
+}
+.CommentThread .comments .moreComment {
+	display: block;
+}
+#content-document-view-details .atDocDetails {
+	border-radius: 0;
+	background: none;
+	box-shadow: none;
+	border: 0;
+}
+.atDocDetails .doc-details-section h2 {
+	border: 0;
+}
+.work-item-sidebar {
+	background-image: none;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+.work-item-sidebar .status-update-view {
+	box-shadow: none;
+	padding: 0;
+}
+/* sidebar */
+ .work-item-sidebar .assigned.status-update-view, .work-item-sidebar .unassigned.status-update-view, .work-item-sidebar .done.status-update-view {
+	background-clip: padding-box;
+	background-color: transparent;
+	background-image: none;
+	;
+	border: 0;
+}
+.shadow {
+	display: none;
+}
+.divider {
+	display: none;
+}
+.work-item-role, .work-item-sidebar .owner-info>span.work-item-role {
+	display: none;
+}
+.breadcrumb-PORT, .breadcrumb-PRGM, .breadcrumb-PROJ, .breadcrumb-TMPL, .breadcrumb-icon {
+	display: none;
+}
+.work-item-breadcrumb {
+	padding: 0;
+}
+.CommentThread {
+	background: none;
+	border: 0;
+}
+.work-item-sidebar .Avatar {
+	float: right;
+}
+.Avatar .portrait.LARGE {
+	width: 20px;
+	height: 20px;
+}
+.Avatar .portrait {
+	border: 0;
+}
+.work-item-sidebar .owner-info>span {
+	margin-left: 0;
+}
+.work-item-sidebar .assignees {
+	overflow-y: visible;
+}
+.work-item-sidebar .actions-tray {
+	border: 0;
+	border-radius: 0;
+	color: #333;
+}
+.work-item-sidebar .awaiting-approval.actions-tray, .work-item-sidebar .can-edit.actions-tray {
+	background: none;
+}
+.work-item-sidebar .actions-tray, .work-item-sidebar .can-accept.actions-tray, .work-item-sidebar .can-accept.actions-tray a {
+	color: #222
+}
+.main-nav[href="/requests"] {
+	display: none;
+}
+#content-project-view .layout-breadcrumb {
+	padding-left: 0;
+}
+/* Dumb hover effect on project title */
+ .detail-name-edit[contenteditable] {
+	border:0;
+}
+.detail-name-edit[contenteditable]:hover {
+	background-color: transparent;
+	background-image: none;
+	border: 0;
+}
+.work-item-sidebar .status-update-view .highlight {
+	display: none;
+}
+.navbar-item-group:before {
+	display: none;
+}
+#nav-search .nav-search-field {
+	border-top-width: 0;
+}
+.TabPanel>.nav ul li.tab-more.active, .TabPanel>.nav ul li.tab.active, .TabPanel>.section .TabPanel.full-tabs>.nav ul li.tab-more.active, .TabPanel>.section .TabPanel.full-tabs>.nav ul li.tab.active, .TabPanel>.section .TabPanel.full-tabs>nav ul li.tab-more.active, .TabPanel>.section .TabPanel.full-tabs>nav ul li.tab.active, .TabPanel>nav ul li.tab-more.active, .TabPanel>nav ul li.tab.active, .TabPanel>section .TabPanel.full-tabs>.nav ul li.tab-more.active, .TabPanel>section .TabPanel.full-tabs>.nav ul li.tab.active, .TabPanel>section .TabPanel.full-tabs>nav ul li.tab-more.active, .TabPanel>section .TabPanel.full-tabs>nav ul li.tab.active, .TabPanel>.nav ul, .TabPanel>.section .TabPanel.full-tabs>.nav ul, .TabPanel>.section .TabPanel.full-tabs>nav ul, .TabPanel>nav ul, .TabPanel>section .TabPanel.full-tabs>.nav ul, .TabPanel>section .TabPanel.full-tabs>nav ul {
+	border-width: 0;
+}
+.DetailsView>.TabPanel, body.UseProximaNova .DetailsView>.TabPanel {
+	margin-top: -50px;
+}
+.work-item-sidebar .can-complete .reply, .work-item-sidebar .can-edit .reply, .work-item-sidebar .can-complete .reassign, .work-item-sidebar .can-edit .reassign {
+	background: none;
+	padding-left:0;
+}
+.work-item-sidebar .info-container {
+	border-width: 0;
+}
+.update-status + span {
+	display: none;
+}
+.work-item-sidebar .requestor-info>span {
+	margin-left: 0;
+}

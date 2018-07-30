@@ -1,0 +1,52 @@
+.icon-appslauncher::after {
+	content:"Apps";
+}
+.icon-pulse::after {
+	content:"Tasks";
+}
+.icon-favorites::after {
+	content:"Favorites";
+}
+.icon-appslauncher::after,
+.icon-pulse::after,
+.icon-favorites::after {
+	font-family: DINWebPro, Verdana, sans-serif;
+}
+.icon-appslauncher::before, .icon-pulse::before, .icon-favorites::before {
+	display: none;
+}
+.btn-shell {
+/* 	width: auto; */
+}
+.btn-shell::after {
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.app-list + .app-list .icon {
+	display: none;
+}
+/* View preview in new window link */
+ .v-horizontallayout-pageeditor .pagebar > .page-link {
+	font-size: 100%;
+	font-weight: bold;
+}
+.v-horizontallayout-pageeditor .pagebar .page-link a {
+/* 	position: relative; */
+}
+.v-horizontallayout-pageeditor .pagebar .page-link a::before {
+	content:"Preview in new window";
+	font-family: DINWebPro, Verdana, sans-serif;
+	font-size: 12px;
+	color: #efefef;
+	line-height: 28px;
+}
+#logo {
+display: none;}
+#main-launcher,
+.v-viewport {
+	transition: none !important;
+}
+/* Make text larger in comment reply box */
+.comment-reply {
+	font-size: 16px;
+}

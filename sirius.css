@@ -1,0 +1,19 @@
+/* player.siriusxm.com */
+.np-header-bg {
+	background-image: none!important;
+}
+
+.tile-wrapper.grid[_ngcontent-c13] .tile-background[_ngcontent-c13] .channel-image.center[_ngcontent-c13] {
+	/* width: 96px; */
+	/* height: 76px; */
+	margin: 2px 0 0 10px;
+}
+
+.tile-wrapper[_ngcontent-c13] .tile-background[_ngcontent-c13] {
+border-radius: 0;
+}
+.sxm-navbar[_ngcontent-c3] {
+background-image: none;
+background-color: #666}
+.logo-item {
+display: none;}

@@ -1,0 +1,82 @@
+/* reddit.com */
+/* @ work */
+body {
+	font-family: arial;
+}
+.entry .buttons li a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+a, .tagline a, .search-result-meta a, .morecomments a, .button, .md a {
+	color: #000;
+}
+.thing .title {
+	color: #333;
+}
+.md a {
+	text-decoration: underline;
+}
+.comment .author {
+	font-weight: normal;
+}
+.link .usertext-body .md {
+	border-width: 0;
+	border-radius: 0;
+}
+#header {
+	background-color: transparent;
+	border-width: 0;
+}
+#header-img.default-header {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: auto;
+}
+.tabmenu li.selected a {
+	color: #333;
+	border-width: 0;
+}
+.thumbnail.self {
+	display: none;
+}
+.linkinfo {
+	border-width: 0;
+	background-color: transparent;
+}
+.link .title {
+	font-size: 16px;
+}
+/* Links to Give Gold */
+ a[href^="/gold"], .submit-link, .score, .redditname, .shortlink, .users-online, .embed-comment
+.width-clip {
+	display: none;
+}
+#sr-header-area {
+display: none;}
+
+/* Prevent hiding arrows */
+/*.arrow,
+body .arrow,
+body:not(.subscriber) .arrow,
+.arrow.down,
+.arrow.up {
+visibility: visible !important;
+display: block !important;
+	width: 100% !important;
+	height: auto !important;
+	background-position: initial !important;
+	background-image: none !important;
+
+		margin: 2px 0px 0px 0px !important;
+	width: 100% !important;
+	height: 14px !important;
+	display: block !important;
+	cursor: pointer !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	width: 15px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	outline: none !important;
+}

@@ -1,0 +1,27 @@
+/* @ work */
+/* Hide logo */
+ .navbar .brand,
+/* Hide group name */
+ .topbar h1,
+/* Hide invite form */
+ .sidebar_invites,
+/* hide "view printable summary*/
+ a[href*="get_printable_summary"] {
+	display:none;
+}
+/* simplify center column display */
+ #center_bars {
+	border-left-width: 0;
+	border-right-width: 0;
+	box-shadow: none;
+}
+.month-divider {
+	border: 0;
+}
+.btn, .btn-large {
+	border-radius: 0 !important;
+}
+.navbar-inner {
+	border: 0;
+	box-shadow: none;
+}

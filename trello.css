@@ -1,0 +1,10 @@
+.window-main-col {
+	display: flex;
+	flex-direction: column;
+}
+.js-attachments-section {
+	order: 4;
+}
+.mod-other-type {
+	display: none;
+}

@@ -1,0 +1,13 @@
+#loginBox {
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.bPageBlock .pbHeader {
+	background-color: transparent
+}
+.pbHeader .pbTitle h2 {
+	color: #333;
+}
+.pbBody td {
+	margin-bottom: 15px;
+}

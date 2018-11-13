@@ -1,0 +1,14 @@
+.onlineMarker {
+display: none;}
+
+.titleBar h1 {
+	font-size: 14px;
+}
+.uix_mainSidebar{
+	display: none;
+}
+.message .newIndicator {
+	background-color: #333;
+}
+.audentio_postPagination {
+display: none;}

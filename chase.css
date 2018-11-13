@@ -1,0 +1,11 @@
+.geo-module__img {
+	background-image: none !important;
+}
+@media only screen and (min-width: 1px) {
+	.geo-module__img {
+		background-image: none !important;
+	}
+}
+.jpui.background.image {
+	background-image: none !important;
+}

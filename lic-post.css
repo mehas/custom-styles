@@ -1,0 +1,16 @@
+/* licpost.com */
+/* sunnysidepost.com */
+/* astoriapost.com */
+#top,
+#branding,
+#secondary {
+	display: none;
+}
+#access,
+#subHeader .otherSites li a {
+background-color: white;
+}
+#access ul li a,
+#subHeader .otherSites li a{
+color: #333;
+}

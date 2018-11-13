@@ -1,0 +1,4 @@
+/* https://jenkins.nyt.net/ */
+.task-link[href*="build?"] {
+	font-weight: bold;
+}

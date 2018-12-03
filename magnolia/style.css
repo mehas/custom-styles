@@ -1,52 +1,108 @@
-.icon-appslauncher::after {
-	content:"Apps";
-}
-.icon-pulse::after {
-	content:"Tasks";
-}
-.icon-favorites::after {
-	content:"Favorites";
-}
-.icon-appslauncher::after,
-.icon-pulse::after,
-.icon-favorites::after {
-	font-family: DINWebPro, Verdana, sans-serif;
-}
-.icon-appslauncher::before, .icon-pulse::before, .icon-favorites::before {
-	display: none;
-}
+/* Primary buttons (icons and labels */
 .btn-shell {
-/* 	width: auto; */
+	/*  width: auto; */
+	font-size: 22px;
 }
+
 .btn-shell::after {
-	font-size: 18px;
+	display: block;
 	font-family: sans-serif;
 }
-.app-list + .app-list .icon {
+
+/* "Favorites" button */
+#btn-favorites {
 	display: none;
 }
-/* View preview in new window link */
- .v-horizontallayout-pageeditor .pagebar > .page-link {
+
+/* Button Icons */
+.icon-appslauncher::before,
+.icon-pulse::before,
+.icon-favorites::before {
+	/* display: none; */
+	font-size: 22px;
+}
+
+/* Button Text labels */
+/* Add text */
+.icon-appslauncher::after {
+	content: 'Apps';
+}
+
+.icon-pulse::after {
+	content: 'Tasks';
+}
+
+.icon-favorites::after {
+	content: 'Favorites';
+}
+
+.icon-appslauncher::after,
+.icon-pulse::after,
+.icon-favorites::after,
+.icon-pages::after,
+.icon-assets::after {
+	font-family: DINWebPro, Verdana, sans-serif;
+	font-size: 18px;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	transform: translateX(-50%);
+}
+/* Button badges */
+.btn-shell .badge-icon {
+	z-index: 187;
+}
+/* ? */
+.app-list + .app-list .icon {
+	/* display: none; */
+}
+
+/* "View preview in new window" link */
+.v-horizontallayout-pageeditor .pagebar > .page-link {
 	font-size: 100%;
 	font-weight: bold;
 }
+
 .v-horizontallayout-pageeditor .pagebar .page-link a {
-/* 	position: relative; */
+	/*  position: relative; */
 }
+
 .v-horizontallayout-pageeditor .pagebar .page-link a::before {
-	content:"Preview in new window";
+	color: #efefef;
+	content: 'Preview in new window';
 	font-family: DINWebPro, Verdana, sans-serif;
 	font-size: 12px;
-	color: #efefef;
 	line-height: 28px;
 }
+
+/* Primary Magnolia logo */
 #logo {
-display: none;}
+	display: none;
+}
+
+/* Transitions on app launcher and viewport */
 #main-launcher,
 .v-viewport {
-	transition: none !important;
+	/* transition: none !important; */
+	/* transition-duration: 0 !important; */
 }
-/* Make text larger in comment reply box */
-.comment-reply {
-	font-size: 16px;
+/* Custom pages button */
+.icon-pages:before {
+	content: '\e004';
+}
+
+.icon-pages::after {
+	content: 'Pages';
+}
+/* Custom assets button */
+.icon-assets:before {
+	content: '\e005';
+}
+
+.icon-assets::after {
+	content: 'Assets';
+}
+/* Custom buttons */
+.link-btn {
+	color: #3e5900;
 }

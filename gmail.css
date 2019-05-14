@@ -1,0 +1,20 @@
+/* All inboxes */
+[jsaction*=".CLIENT"] {
+    /*     border: 1px solid pink; */
+}
+
+/* Each inbox tab content area */
+[jsaction*=".CLIENT"] > div > [role="tabpanel"] {
+    /*     border: 1px solid green; */
+}
+
+/* First div in tab content section, ads */
+[jsaction*=".CLIENT"] > div > [role="tabpanel"] > div:first-child {
+    border: 1px solid purple;
+    display: none;
+}
+a[href*="google.com/gmail/about/policy"],
+a[href*="google.com/intl/en/policies/terms/"],
+a[href*="google.com/intl/en/policies/privacy/"] {
+    display: none;
+}

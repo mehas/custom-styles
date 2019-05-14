@@ -1,4 +1,6 @@
-.geo-module__img {
+.geo-module__img,
+.herolayer__img,
+.header.header-version-b .header__black-linear-bg {
 	background-image: none !important;
 }
 @media only screen and (min-width: 1px) {
@@ -8,4 +10,10 @@
 }
 .jpui.background.image {
 	background-image: none !important;
+}
+.carouselad,
+.footer-container .social-links,
+.footer-container .footer-links .copyright-label,
+.footer-container .footer-links .equal-housing-lender{
+    display: none;
 }

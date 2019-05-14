@@ -1,14 +1,172 @@
 .onlineMarker {
-display: none;}
+	display: none;
+}
 
 .titleBar h1 {
 	font-size: 14px;
 }
-.uix_mainSidebar{
+
+.uix_mainSidebar {
 	display: none;
 }
+
 .message .newIndicator {
 	background-color: #333;
 }
+
 .audentio_postPagination {
-display: none;}
+	display: none;
+}
+/* Hide IPA Fest sticky */
+#thread-605542 {
+	display: none;
+}
+/* Remove pointless UI */
+/* Hide breadcrumb arrows*/
+#content .breadBoxTop .breadcrumb .crust .arrow {
+	display: none;
+}
+/* Hide "Home" breadcrumb*/
+#content .breadBoxTop .breadcrumb .homeCrumb {
+	display: none;
+}
+/* Hide Quick Navigation button */
+#content .jumpMenuTrigger {
+	display: none;
+}
+/* Hide main logo*/
+#logoBlock,
+#logo_small,
+.activeSmallLogo #logo_small {
+	display: none;
+}
+/* Hide Events menu item */
+#navigation .navTabs .Events {
+	display: none;
+}
+/* Hide Magazine  menu item */
+#navigation .navTabs .Magazine {
+	display: none;
+}
+/* Hide Store menu item */
+#navigation .navTabs .Store {
+	display: none;
+}
+/* Hide Subscribe menu item */
+#navigation .navTabs .Subscribe {
+	display: none;
+}
+/* Hide own small avatar */
+#userBar .avatar {
+	display: none;
+}
+/* Hide footer */
+.bigFooter,
+.footer,
+.footerLegal {
+	display: none;
+}
+/* Hide ad bar */
+.funbox {
+	display: none;
+}
+/* */
+.membersOnline .followedOnline + .minorHeading + ol {
+	display: none;
+}
+/* Hide Online indicator*/
+.messageList .message .messageUserBlock div.avatarHolder .onlineMarker {
+	display: none;
+}
+/* Hide Verified Trader banner*/
+.messageList .userBanner {
+	display: none;
+}
+
+.nodeList .nodeIcon,
+.staffOnline,
+.threadList {
+	display: none;
+}
+/* Hide notifications for Events advertisements*/
+#navigation .navTabs .Events .navLink .itemCount {
+	display: none;
+}
+/* Simplify design and increase legibility*/
+#content .breadBoxTop .topCtrl .callToAction span,
+#content .breadcrumb,
+#content .nodeList .categoryStrip,
+#content .pageContent,
+.messageList .bbCodeQuote,
+.messageList .bbCodeQuote .attribution,
+.messageList .bbCodeQuote .quoteContainer,
+.messageList .likesSummary,
+.messageList .message,
+.messageList .message .messageMeta .control,
+.messageList .message .messageUserInfo,
+.messageList .message .messageUserInfo .userText,
+.sidebar .section .secondaryContent {
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	color: #333;
+}
+/* Push content to top */
+#content .pageContent {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+}
+
+#navigation {
+	margin: 0;
+}
+
+#navigation .navTabs {
+	background-color: transparent;
+	border-radius: 0;
+}
+
+#navigation .navTabs .navTab .navLink {
+	color: #333;
+}
+
+#userBar {
+	margin: 0;
+}
+
+#userBar .navTabs {
+	background-color: transparent;
+}
+
+#userBar .navTabs .navLink {
+	color: #333;
+}
+
+#content,
+#content .breadBoxTop {
+	margin: 0;
+}
+
+#content .breadBoxTop .topCtrl {
+	line-height: 1;
+}
+
+#content .nodeList .categoryStrip {
+	padding: 0;
+}
+
+.messageList .message .messageUserBlock div.avatarHolder {
+	padding: 0;
+	text-align: left;
+}
+
+.messageList .message .messageUserBlock .avatar img {
+	max-width: 15px;
+}

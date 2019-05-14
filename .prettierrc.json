@@ -1,0 +1,18 @@
+{
+	"arrowParens": "always",
+	"bracketSpacing": true,
+	"endOfLine": "crlf",
+	"htmlWhitespaceSensitivity": "strict",
+	"insertPragma": false,
+	"jsxBracketSameLine": false,
+	"noSemi": true,
+	"parser": "typescript",
+	"printWidth": 999999999,
+	"proseWrap": "never",
+	"rcVerbose": true,
+	"semi": true,
+	"singleQuote": true,
+	"tabWidth": 4,
+	"trailingComma": "es5",
+	"useTabs": true
+}

@@ -1,0 +1,11 @@
+/* Prime Now */
+/* Logos */
+[class*='asin_offer_price__logoContainer'] {
+	max-width: 40px;
+}
+
+/* Price */
+[class*='asin_price__priceFull'] {
+	font-size: 16px;
+	font-weight: bold;
+}

@@ -1,16 +1,69 @@
-/* licpost.com */
 /* sunnysidepost.com */
 /* astoriapost.com */
-#top,
+/* licpost.com */
+/* foresthillspost.com */
+/* jacksonheightspost.com */
+.a-19.g-single > .gofollow,
+.above-footer-ad-area,
+.active.fly-out,
+.ads,
+.ars,
+.article-before-comments-ar-area,
+.article-insert-ar,
+.first-ad-banner-area .first-ad-banner-area,
+.first-ar-box-area,
+.fly-out,
+.footer,
+.header > .wrap.description,
+.jssocials-shares,
+.middle-ar-area,
+.second-ar-box-area,
+.share-buttons,
+.sign-up,
+.reply-comment-title,
+.wrap.description,
+.wrapper-sticky,
 #branding,
-#secondary {
-	display: none;
+#colophon,
+#menu-item-18341 > a[href='http://www.queenspostmarket.com'],
+#menu-item-25 > a[href='http://licpost.com/events'],
+#menu-item-83 > a[href='http://licpost.com/about'],
+#menu-main-menu,
+#print-icons,
+#secondary,
+#share-icons,
+#share,
+#sidebar1,
+#subfooter,
+#top,
+#top,
+a[href^='http://www.printfriendly.com/print'],
+a[href='http://licpost.com/contact'],
+a[href='http://www.queenspostmarket.com/ny/real-estate/search'],
+.general-comment-title,
+.above-footer-ar-area,
+.author-info,
+.cf.entry-content > .separator,
+.captcha-notice-field,
+.reply-comment-title{
+    display: none;
 }
+
 #access,
 #subHeader .otherSites li a {
-background-color: white;
+    background-color: white;
 }
+
 #access ul li a,
-#subHeader .otherSites li a{
-color: #333;
+#subHeader .otherSites li a {
+    color: #333;
+}
+.article-title,
+h1,
+.entry-title {
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+.comment-respond {
+    padding: 0;
 }

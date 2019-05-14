@@ -1,0 +1,10 @@
+.w3-example {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    box-shadow: none !important;
+}
+.w3-btn, .w3-btn:link, .w3-btn:visited {
+    color: #FFFFFF;
+    background-color: #333;
+}

@@ -1,3 +1,7 @@
-button[data-control-name=invite] {
+button[data-control-name="invite"] {
 /* display: none; */
+}
+/* Invite buttons */
+[data-ember-action-6609="6609"] {
+/*     display: none; */
 }

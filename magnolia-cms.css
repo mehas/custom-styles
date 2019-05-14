@@ -1,0 +1,161 @@
+:root {
+    --foreground-color: #666;
+    --background-color: #e0e0e0;
+    --dark-grey: #666;
+    --light-grey: #e0e0e0;
+}
+
+#main-launcher {
+    text-align: left;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #c1c1c1;
+    color: var(--foreground-color);
+}
+
+/* Primary buttons (icons and labels) "Apps", "Pages" etc */
+.btn-shell {
+    /*  width: auto; */
+    font-size: 22px;
+}
+
+.btn-shell::after {
+    display: block;
+    font-family: sans-serif;
+}
+
+
+/* "Favorites" button */
+#btn-favorites {
+    display: none;
+}
+
+
+/* Button Icons */
+.icon-appslauncher::before,
+.icon-pulse::before,
+.icon-favorites::before {
+    /* display: none; */
+    font-size: 22px;
+}
+
+
+/* Button Text labels */
+
+/* Add text */
+.icon-appslauncher::after {
+    content: 'Apps';
+}
+
+.icon-pulse::after {
+    content: 'Tasks';
+}
+
+.icon-favorites::after {
+    content: 'Favorites';
+}
+
+.icon-appslauncher::after,
+.icon-pulse::after,
+.icon-favorites::after,
+.icon-pages::after,
+.icon-assets::after {
+    font-family: DINWebPro, Verdana, sans-serif;
+    font-size: 18px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+/* Button badges */
+.btn-shell .badge-icon {
+    z-index: 187;
+    background-color: var(--light-grey) !important;
+    color: var(--dark-grey) !important;
+    border-color: var(--dark-grey) !important;
+}
+
+/* Badges inside "Tasks" Menu */
+.v-pulse .navigator-tab .badge {
+    background-color: var(--dark-grey);
+}
+
+/* ? */
+.app-list + .app-list .icon {
+    /* display: none; */
+}
+
+
+/* "View preview in new window" link */
+.v-horizontallayout-pageeditor .pagebar > .page-link {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.v-horizontallayout-pageeditor .pagebar .page-link a {
+    /*  position: relative; */
+}
+
+.v-horizontallayout-pageeditor .pagebar .page-link a::before {
+    color: #efefef;
+    content: 'Preview in new window';
+    font-family: DINWebPro, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+
+/* Primary Magnolia logo */
+#logo {
+    display: none;
+}
+
+
+/* Transitions on app launcher and viewport */
+#main-launcher,
+.v-viewport {
+    /* transition: none !important; */
+    /* transition-duration: 0 !important; */
+}
+
+/* Custom pages button */
+.icon-pages:before {
+    content: '\e004';
+}
+
+.icon-pages::after {
+    content: 'Pages';
+}
+
+/* Custom assets button */
+.icon-assets:before {
+    content: '\e005';
+}
+
+.icon-assets::after {
+    content: 'Assets';
+}
+
+/* Custom buttons */
+.link-btn {
+    color: #666;
+}
+
+/* Triangle beneath primary buttons */
+#main-launcher #divet {
+    display: none !important;
+}
+
+/* Sticker indicating which environment we're in */
+.v-shell-user-menu-wrapper .v-sticker {
+    background-color: #666 !important;
+    color: #e0e0e0;
+    font-weight: normal;
+}
+
+.v-shell-tabsheet-logo {
+    display: none;
+}
+.v-horizontallayout-browser .v-verticallayout-workbench {
+    padding-left: 0;
+}

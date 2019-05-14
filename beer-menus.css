@@ -1,27 +1,71 @@
 .text-biggest {
 	font-size: 24px !important;
 }
+
 .text-center {
 	text-align: left;
 }
-.desktop-feed a[href*="/places"] {
+
+.desktop-feed a[href*='/places'] {
 	font-size: 14px;
 }
-.desktop-feed a[href*="/beers"] {
 
+.desktop-feed a[href*='/beers'] {
 	display: block;
 }
+
 .footer,
 #drift-widget-container,
 .header-help,
 .header-main .pure-u-1-6,
-a[href*="/your_menus/dropdown"]{
+a[href*='/your_menus/dropdown'] {
 	display: none;
+}
+
+.text-biggest {
+	font-size: 24px !important;
+}
+
+.text-center {
+	text-align: left;
+}
+
+.desktop-feed a[href*='/places'] {
+	font-size: 14px;
+}
+
+.desktop-feed a[href*='/beers'] {
+	display: block;
+}
+
+.footer,
+#drift-widget-container,
+.header-help,
+.header-main .pure-u-1-6,
+a[href*='/your_menus/dropdown'] {
+	display: none;
+}
+
+.pure-button-round {
+	border-radius: 0;
+}
+
+[href*='/places/new'] {
+	display: none;
+}
+
+.location-updater .pure-input-prepend .prepend {
+	color: black;
+}
+
+.b-blue {
+	border-color: grey !important;
 }
 /* @ work */
 .text-normal {
-	color: #aaa;}
+	color: #aaa;
+}
 
-	.text-normal a {
-		color: #333;
-	}
+.text-normal a {
+	color: #333;
+}

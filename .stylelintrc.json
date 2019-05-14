@@ -1,0 +1,16 @@
+{
+	"extends": "/usr/local/lib/node_modules/stylelint-config-sass-guidelines",
+	"plugins": [
+		"/usr/local/lib/node_modules/stylelint-order",
+		"/usr/local/lib/node_modules/stylelint-scss"
+	],
+	"rules": {
+		"color-named": null,
+		"indentation": [
+            "tab"
+		],
+		"order/properties-alphabetical-order": [true, { "severity": "warning" } ],
+		"max-nesting-depth":null,
+		"selector-class-pattern": null
+	}
+}

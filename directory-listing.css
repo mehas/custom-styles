@@ -1,0 +1,13 @@
+.directory {
+	font-size: 21px;
+	line-height: 1.4;
+	padding-top: 20px;
+}
+.directory ul#files li {
+	float: none;
+	width: auto;
+	line-height: 1.4;
+}
+.directory ul#files li a {
+	height: auto;
+}

@@ -1,0 +1,9 @@
+[class*="sponsoredResult"],
+.ghs-sponsoredResult,
+.sponsoredResult {
+    display: block;
+}
+
+.ghs-sponsoredResult .restaurant-name {
+    color: red;
+}

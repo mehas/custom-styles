@@ -1,0 +1,54 @@
+body {
+	font-family: arial;
+}
+.entry .buttons li a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+a, .tagline a, .search-result-meta a, .morecomments a, .button, .md a {
+	color: #000;
+}
+.thing .title {
+	color: #333;
+}
+.md a {
+	text-decoration: underline;
+}
+.comment .author {
+	font-weight: normal;
+}
+.link .usertext-body .md {
+	border-width: 0;
+	border-radius: 0;
+}
+#header {
+	background-color: transparent;
+	border-width: 0;
+}
+#header-img.default-header {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: auto;
+}
+.tabmenu li.selected a {
+	color: #333;
+	border-width: 0;
+}
+.thumbnail.self {
+	display: none;
+}
+.linkinfo {
+	border-width: 0;
+	background-color: transparent;
+}
+.link .title {
+	font-size: 16px;
+}
+/* Links to Give Gold */
+ a[href^="/gold"], .submit-link, .score, .redditname, .shortlink, .users-online, .embed-comment
+.width-clip {
+	display: none;
+}
+#sr-header-area {
+display: none;}

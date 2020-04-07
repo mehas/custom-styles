@@ -1,8 +1,11 @@
-/* sunnysidepost.com */
 /* astoriapost.com */
-/* licpost.com */
+/* flushingpost.com */
 /* foresthillspost.com */
+/* greenpointheightspost.com */
 /* jacksonheightspost.com */
+/* licpost.com */
+/* ridgewoodpost.com */
+/* sunnysidepost.com */
 .a-19.g-single > .gofollow,
 .above-footer-ad-area,
 .active.fly-out,
@@ -19,7 +22,7 @@
 .middle-ar-area,
 .second-ar-box-area,
 .share-buttons,
-.sign-up,
+.,
 .reply-comment-title,
 .wrap.description,
 .wrapper-sticky,
@@ -45,7 +48,8 @@ a[href='http://www.queenspostmarket.com/ny/real-estate/search'],
 .author-info,
 .cf.entry-content > .separator,
 .captcha-notice-field,
-.reply-comment-title{
+.reply-comment-title,
+{
     display: none;
 }
 
